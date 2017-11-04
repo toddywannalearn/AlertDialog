@@ -1,0 +1,8 @@
+public void mensagem(String titulo, String texto) {
+        AlertDialog.Builder msg = new AlertDialog.Builder(MainActivity.this);
+        msg.setTitle(titulo);
+        msg.setMessage(texto);
+        msg.setIcon(R.mipmap.ic_launcher);
+        msg.setNeutralButton("OK", null);
+        msg.show();
+    }
